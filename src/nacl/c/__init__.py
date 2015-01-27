@@ -39,10 +39,10 @@ from nacl.c.crypto_sign import (
     crypto_sign_SECRETKEYBYTES, crypto_sign_SEEDBYTES, crypto_sign_keypair,
     crypto_sign_open, crypto_sign_seed_keypair,
 )
-from nacl.c.crypto_pwhash_scryptxsalsa208sha256 import (
-    crypto_pwhash_scryptxsalsa208sha256_SALTBYTES, crypto_pwhash_scryptxsalsa208sha256_STRBYTES, 
-    crypto_pwhash_scryptxsalsa208sha256, crypto_pwhash_scryptxsalsa208sha256_str, 
-    crypto_pwhash_scryptxsalsa208sha256_str_verify,
+from nacl.c.crypto_pwhash_scryptsalsa208sha256 import (
+    crypto_pwhash_scryptsalsa208sha256_SALTBYTES, crypto_pwhash_scryptsalsa208sha256_STRBYTES, 
+    crypto_pwhash_scryptsalsa208sha256, crypto_pwhash_scryptsalsa208sha256_str, 
+    crypto_pwhash_scryptsalsa208sha256_str_verify,
 )
 from nacl.c.randombytes import randombytes
 from nacl.c.sodium_core import sodium_init
