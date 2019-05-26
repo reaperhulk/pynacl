@@ -42,6 +42,9 @@ exclude .travis
 exclude .travis/install.sh
 exclude .travis/run.sh
 
+# Azure Pipelines
+exclude azure-pipelines.yml
+
 # Remove readthedocs config
 exclude .readthedocs.yml
 
